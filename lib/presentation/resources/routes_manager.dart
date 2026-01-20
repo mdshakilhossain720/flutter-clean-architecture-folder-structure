@@ -1,6 +1,8 @@
 
 import 'package:flutter/material.dart';
 
+import '../onboarding/onboarding.dart';
+import '../splash/splash.dart';
 import 'strings_manager.dart';
 
 class Routes {
@@ -17,11 +19,11 @@ class RouteGenerator {
   static Route<dynamic> getRoute(RouteSettings routeSettings) {
     switch (routeSettings.name) {
       case Routes.splashRoute:
-      //   return MaterialPageRoute(builder: (_) => SplashView());
+        return MaterialPageRoute(builder: (_) => SplashView());
       // case Routes.loginRoute:
       //   return MaterialPageRoute(builder: (_) => LoginView());
-      // case Routes.onBoardingRoute:
-      //   return MaterialPageRoute(builder: (_) => OnBoardingView());
+      case Routes.onBoardingRoute:
+        return MaterialPageRoute(builder: (_) => OnBoardingView());
       // case Routes.registerRoute:
       //   return MaterialPageRoute(builder: (_) => RegisterView());
       // case Routes.forgotPasswordRoute:

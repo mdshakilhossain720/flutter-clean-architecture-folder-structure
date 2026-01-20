@@ -34,10 +34,37 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
+  flutter_svg: ^2.2.3
+  retrofit: ^4.9.2
+  internet_connection_checker: ^3.0.1
+
+  #analyzer: ^10.0.1
+  dio: ^5.9.0
+  json_serializable: ^6.11.4
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+
+  dartz: ^0.10.1
+  #data_connection_checker: ^0.3.4
+  pretty_dio_logger: ^1.4.0
+  shared_preferences: ^2.5.4
+  #device_info: ^2.0.3
+  freezed: ^3.2.4
+  get_it: ^9.2.0
+  lottie: ^3.3.2
+  country_code_picker: ^3.4.1
+  image_picker: ^1.2.1
+  rxdart: ^0.28.0
+  carousel_slider: ^5.1.1
+  easy_localization: ^3.0.8
+  flutter_phoenix: ^1.1.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
+  retrofit_generator: ^10.2.1
+  build_runner: ^2.10.5
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
